@@ -66,3 +66,17 @@ keywords = extractor.extract_keywords(text)
 print(keywords) 
 ```
 Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গান']
+
+### Dataset: Bangla Key2Text 2 Million 
+
+We have uploaded our dataset as a Huggingface Dataset. 
+[:hugs: Bangla-Key2Text-2Million](https://huggingface.co/datasets/tonmoytalukder/Bangla-Key2Text-2Million)
+#### Run using the below code
+```python
+!pip install datasets
+
+from datasets import load_dataset
+
+dataset = load_dataset("tonmoytalukder/Bangla-Key2Text-2Million", split="train") #split="test"
+dataset
+```
