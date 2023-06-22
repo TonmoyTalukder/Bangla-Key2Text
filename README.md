@@ -48,3 +48,21 @@ def predict(key): # Function to generate text from given keywords
 keywords = "কেমন ডাটাসেট সময় ভাই বানাতে" # Put as কেমন ডাটাসেট সময় ভাই বানাতে in the Hosted inference API. Don't put any punctuation mark.
 predict(normalize(keywords)) # "ভাই, ডাটাসেট বানাতে কেমন সময় লাগে?"
 ```
+
+### Bangla Keyword Extractor
+
+#### Find in Hugging Face 
+[:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor)
+
+We have uploaded this code as a PyPI project. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/)
+#### Run using the below code
+```python
+!pip install bn-keyword-extractor
+
+from keyword_extractor import KeywordExtractor
+extractor = KeywordExtractor()
+text = "আমি বাংলায় গান শোনা ভালবাসি।"
+keywords = extractor.extract_keywords(text)
+print(keywords) 
+```
+Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গান']
