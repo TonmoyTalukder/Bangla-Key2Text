@@ -2,10 +2,12 @@
 **Author:** G M Shahriar, Tonmoy Talukder, 2023
 <hr style="width:50px" />
 
-### Find in Hugging Face 
+### Bangla-Key2Text
+
+#### Find in Hugging Face 
 [:hugs: Bangla-Key2Text](https://huggingface.co/tonmoytalukder/Bangla-Key2Text)
 
-### Run using the below code
+#### Run using the below code
 ```python
 !pip install sentencepiece
 !pip install transformers
