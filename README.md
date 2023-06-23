@@ -52,6 +52,7 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 
 ### Bangla Keyword Extractor
 
+We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
 #### Find in Hugging Face (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 [:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor)
 
