@@ -4,7 +4,7 @@
 
 ### Bangla-Key2Text
 
-#### Find in Hugging Face 
+#### Find in Hugging Face (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 [:hugs: Bangla-Key2Text](https://huggingface.co/tonmoytalukder/Bangla-Key2Text)
 
 #### Run using the below code
@@ -45,16 +45,17 @@ def predict(key): # Function to generate text from given keywords
     return generated_text
 
 
-keywords = "কেমন ডাটাসেট সময় ভাই বানাতে" # Put as কেমন ডাটাসেট সময় ভাই বানাতে in the Hosted inference API. Don't put any punctuation mark.
-predict(normalize(keywords)) # "ভাই, ডাটাসেট বানাতে কেমন সময় লাগে?"
+keywords = "কেমন ডাটাসেট সময় ভাই বানাতে"
+predict(normalize(keywords)) # This normalize function will preprocess (clean) the sentence. 
+# Output: "ভাই, ডাটাসেট বানাতে কেমন সময় লাগে?"
 ```
 
 ### Bangla Keyword Extractor
 
-#### Find in Hugging Face 
+#### Find in Hugging Face (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 [:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor)
 
-We have uploaded this code as a PyPI project. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/)
+We have uploaded this code as a PyPI project. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/) 
 #### Run using the below code
 ```python
 !pip install bn-keyword-extractor
@@ -69,7 +70,7 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 
 ### Dataset: Bangla Key2Text 2 Million 
 
-We have uploaded our dataset as a Huggingface Dataset. 
+We have uploaded our dataset as a Huggingface Dataset. (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 [:hugs: Bangla-Key2Text-2Million](https://huggingface.co/datasets/tonmoytalukder/Bangla-Key2Text-2Million)
 #### Run using the below code
 ```python
