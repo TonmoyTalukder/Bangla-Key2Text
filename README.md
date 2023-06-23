@@ -4,8 +4,8 @@
 
 ### Bangla-Key2Text
 
-#### Find in Hugging Face (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
-[:hugs: Bangla-Key2Text](https://huggingface.co/tonmoytalukder/Bangla-Key2Text)
+#### Find in Hugging Face 
+[:hugs: Bangla-Key2Text](https://huggingface.co/tonmoytalukder/Bangla-Key2Text)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
 ```python
@@ -53,8 +53,8 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 ### Bangla Keyword Extractor
 
 We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
-#### Find in Hugging Face (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
-[:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor)
+#### Find in Hugging Face 
+[:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 We have uploaded this code as a PyPI project. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/) 
 #### Run using the below code
@@ -71,8 +71,8 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 
 ### Dataset: Bangla Key2Text 2 Million 
 
-We have uploaded our dataset as a Huggingface Dataset. (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
-[:hugs: Bangla-Key2Text-2Million](https://huggingface.co/datasets/tonmoytalukder/Bangla-Key2Text-2Million)
+We have uploaded our dataset as a Huggingface Dataset. 
+[:hugs: Bangla-Key2Text-2Million](https://huggingface.co/datasets/tonmoytalukder/Bangla-Key2Text-2Million) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 #### Run using the below code
 ```python
 !pip install datasets
