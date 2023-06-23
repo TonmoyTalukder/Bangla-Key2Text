@@ -71,7 +71,7 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 
 ### Dataset: Bangla Key2Text 2 Million 
 
-We have uploaded our dataset as a Huggingface Dataset. 
+We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
 [:hugs: Bangla-Key2Text-2Million](https://huggingface.co/datasets/tonmoytalukder/Bangla-Key2Text-2Million) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 #### Run using the below code
 ```python
