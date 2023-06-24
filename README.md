@@ -5,7 +5,7 @@
 ### Bangla-Key2Text
 
 #### Find in Hugging Face 
-[:hugs: Bangla-Key2Text](https://huggingface.co/tonmoytalukder/Bangla-Key2Text)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+[:hugs: Bangla-Key2Text]()  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
 ```python
@@ -18,7 +18,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from normalizer import normalize
 
-model_dir = 'tonmoytalukder/Bangla-Key2Text'
+model_dir = '***/Bangla-Key2Text'
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -54,7 +54,7 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 
 We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
 #### Find in Hugging Face 
-[:hugs: bn-keyword-extractor](https://huggingface.co/tonmoytalukder/bn-keyword-extractor) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+[:hugs: bn-keyword-extractor]() (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 We have uploaded this code as a PyPI project, which will be public after acceptance. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/) 
 #### Run using the below code
@@ -79,6 +79,6 @@ We have uploaded our dataset, which was developed using our *Bangla Keyword Extr
 
 from datasets import load_dataset
 
-dataset = load_dataset("tonmoytalukder/Bangla-Key2Text-2Million", split="train") #split="test"
+dataset = load_dataset("***/Bangla-Key2Text-2Million", split="train") #split="test"
 dataset
 ```
