@@ -1,5 +1,5 @@
 # Bangla Key2Text: Text Generation from Keywords in Bengali
-**Author:** G M Shahariar Shibli, Tonmoy Talukder
+
 <hr style="width:50px" />
 
 ### Bangla-Key2Text
