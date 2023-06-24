@@ -56,7 +56,7 @@ We have developed a keyword extractor for Bangla sentences. This extractor extra
 #### Find in Hugging Face 
 [:hugs: bn-keyword-extractor]() (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
-We have uploaded this code as a PyPI project, which will be public after acceptance. [bn-keyword-extractor](https://pypi.org/project/bn-keyword-extractor/) 
+We have uploaded this code as a PyPI project, which will be public after acceptance. [bn-keyword-extractor]() 
 #### Run using the below code
 ```python
 !pip install bn-keyword-extractor
