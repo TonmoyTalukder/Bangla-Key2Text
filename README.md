@@ -83,5 +83,5 @@ dataset = load_dataset("***/Bangla-Key2Text-2Million", split="train") #split="te
 dataset
 ```
 
-### Model Files
+### Model Weights
 *Aftter acceptance model weights  will be uploaded.*
