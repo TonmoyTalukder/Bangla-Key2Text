@@ -1,14 +1,20 @@
-# Bangla Key2Text: Text Generation from Keywords in Bengali
+# Bangla Key2Text: Text Generation from Keywords for a Low Resource Language
 
-<hr style="width:50px" />
+This repository contains the code and datasets used in the paper titled "Bangla Key2Text: Text Generation from Keywords for a Low Resource Language" submitted at The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024). </br></br>
+
 
 **To download *git lfs* files, visit StackOverflow answer on [How to download git-lfs files using the oid sha256 information](https://stackoverflow.com/questions/65603062/how-to-download-git-lfs-files-using-the-oid-sha256-information).**
+<hr style="width:50px" />
 
-## Text Generation
+## Table of Contents
+- Text Generation Model
+- Bangla Keyword Extractor
+- Dataset: Bangla Key2Text 2.6 Million
+- Model Weights
+
+## Text Generation Model
 
 #### Find in Hugging Face 
-
-[:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
@@ -55,7 +61,7 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 # Output: "ভাই, ডাটাসেট বানাতে কেমন সময় লাগে?"
 ```
 
-### Bangla Keyword Extractor
+## Bangla Keyword Extractor
 
 We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
 #### Find in Hugging Face 
@@ -74,11 +80,9 @@ print(keywords)
 ```
 Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গান']
 
-### Dataset: Bangla Key2Text 2.6 Million 
+## Dataset: Bangla Key2Text 2.6 Million 
 
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
-
-[:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
@@ -92,5 +96,5 @@ dataset = load_dataset("***/***", split="train") #split="test"
 dataset
 ```
 
-### Model Weights
+## Model Weights
 *After acceptance model weights  will be uploaded.*
