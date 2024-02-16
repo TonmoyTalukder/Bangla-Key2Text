@@ -7,7 +7,6 @@
 ### Text Generation
 
 #### Find in Hugging Face 
-<<<<<<< HEAD
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 =======
 [:hugs: Bangla-Key2Text](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
