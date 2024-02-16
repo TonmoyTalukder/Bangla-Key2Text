@@ -8,11 +8,12 @@ This repository contains the code and datasets used in the paper titled "Bangla 
 
 ## Table of Contents
 - [Text Generation Model](#model)
-- Bangla Keyword Extractor
-- Dataset: Bangla Key2Text 2.6 Million
-- Model Weights
+- [Bangla Keyword Extractor](#keywordextractor)
+- [Dataset: Bangla Key2Text 2.6 Million](#data)
+- [Model Weights](#modelweights)
 
-## [Text Generation Model](name="model") 
+<a name="model"></a>
+## Text Generation Model
 
 #### Find in Hugging Face 
 
@@ -61,6 +62,7 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 # Output: "ভাই, ডাটাসেট বানাতে কেমন সময় লাগে?"
 ```
 
+<a name="keywordextractor"></a>
 ## Bangla Keyword Extractor
 
 We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
@@ -80,6 +82,7 @@ print(keywords)
 ```
 Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গান']
 
+<a name="data"></a>
 ## Dataset: Bangla Key2Text 2.6 Million 
 
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
@@ -96,5 +99,6 @@ dataset = load_dataset("***/***", split="train") #split="test"
 dataset
 ```
 
+<a name="modelweights"></a>
 ## Model Weights
 *After acceptance model weights  will be uploaded.*
