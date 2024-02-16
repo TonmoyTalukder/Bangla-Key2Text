@@ -7,7 +7,7 @@
 ### Bangla-Key2Text
 
 #### Find in Hugging Face 
-[:hugs: Bangla-Key2Text](https://anonymous.4open.science/r/Bangla-Key2Text-EMNLP)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+[:hugs: Bangla-Key2Text](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
 ```python
@@ -56,9 +56,9 @@ predict(normalize(keywords)) # This normalize function will preprocess (clean) t
 
 We have developed a keyword extractor for Bangla sentences. This extractor extracts keywords based on the attention or importance of words in a sentence, calculating token-wise BERT embeddings.
 #### Find in Hugging Face 
-[:hugs: bn-keyword-extractor](https://anonymous.4open.science/r/Bangla-Key2Text-EMNLP) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+[:hugs: bn-keyword-extractor](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
-We have uploaded this code as a PyPI project, which will be public after acceptance. [bn-keyword-extractor](https://anonymous.4open.science/r/Bangla-Key2Text-EMNLP) 
+We have uploaded this code as a PyPI project, which will be public after acceptance. [bn-keyword-extractor](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) 
 #### Run using the below code
 ```python
 !pip install bn-keyword-extractor
@@ -74,7 +74,7 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 ### Dataset: Bangla Key2Text 2 Million 
 
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
-[:hugs: Bangla-Key2Text-2Million](https://anonymous.4open.science/r/Bangla-Key2Text-EMNLP) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+[:hugs: Bangla-Key2Text-2Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 #### Run using the below code
 ```python
 !pip install datasets
@@ -86,4 +86,4 @@ dataset
 ```
 
 ### Model Weights
-*Aftter acceptance model weights  will be uploaded.*
+*After acceptance model weights  will be uploaded.*
