@@ -1,3 +1,0 @@
-For keyword length test examples: https://drive.google.com/file/d/1VtXICPgvlj2IO13t381zY1z1tP0kYN1a/view?usp=sharing
-
-For constrained beam search applying examples: https://drive.google.com/file/d/1SVEYj7hNN6RBtXDR40Va4dnPho0_9rEW/view?usp=sharing
