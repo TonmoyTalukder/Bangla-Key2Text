@@ -9,8 +9,7 @@
 #### Find in Hugging Face 
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 =======
-[:hugs: Bangla-Key2Text](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
->>>>>>> 73eaee8a4b6d02442657ec805ac38279bbf89642
+[:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
 ```python
@@ -77,11 +76,11 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 ### Dataset: Bangla Key2Text 2.6 Million 
 
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
-<<<<<<< HEAD
+
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 =======
-[:hugs: Bangla-Key2Text-2Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
->>>>>>> 73eaee8a4b6d02442657ec805ac38279bbf89642
+[:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+
 #### Run using the below code
 ```python
 !pip install datasets
