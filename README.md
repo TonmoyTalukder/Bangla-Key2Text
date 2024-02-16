@@ -9,6 +9,7 @@
 #### Find in Hugging Face 
 
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
@@ -78,6 +79,7 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
 
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
