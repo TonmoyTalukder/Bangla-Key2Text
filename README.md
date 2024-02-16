@@ -7,12 +7,12 @@ This repository contains the code and datasets used in the paper titled "Bangla 
 <hr style="width:50px" />
 
 ## Table of Contents
-- Text Generation Model
+- [Text Generation Model](#model)
 - Bangla Keyword Extractor
 - Dataset: Bangla Key2Text 2.6 Million
 - Model Weights
 
-## Text Generation Model
+## [Text Generation Model](name="model") 
 
 #### Find in Hugging Face 
 
