@@ -4,11 +4,11 @@
 
 **To download *git lfs* files, visit StackOverflow answer on [How to download git-lfs files using the oid sha256 information](https://stackoverflow.com/questions/65603062/how-to-download-git-lfs-files-using-the-oid-sha256-information).**
 
-### Text Generation
+## Text Generation
 
 #### Find in Hugging Face 
+
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
-=======
 [:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
@@ -78,7 +78,6 @@ Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গা�
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
 
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
-=======
 [:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
 
 #### Run using the below code
