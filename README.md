@@ -4,10 +4,14 @@
 
 **To download *git lfs* files, visit StackOverflow answer on [How to download git-lfs files using the oid sha256 information](https://stackoverflow.com/questions/65603062/how-to-download-git-lfs-files-using-the-oid-sha256-information).**
 
-### Bangla-Key2Text
+### Text Generation
 
 #### Find in Hugging Face 
+<<<<<<< HEAD
+[:hugs: Text Generation Model](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+=======
 [:hugs: Bangla-Key2Text](https://anonymous.4open.science/r/Bangla-Key2Text-ACL)  (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+>>>>>>> 73eaee8a4b6d02442657ec805ac38279bbf89642
 
 #### Run using the below code
 ```python
@@ -20,7 +24,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from normalizer import normalize
 
-model_dir = '***/Bangla-Key2Text'
+model_dir = '***/***'
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -71,17 +75,21 @@ print(keywords)
 ```
 Output: ['শোনা', 'ভালবাসি', 'বাংলায়', 'গান']
 
-### Dataset: Bangla Key2Text 2 Million 
+### Dataset: Bangla Key2Text 2.6 Million 
 
 We have uploaded our dataset, which was developed using our *Bangla Keyword Extractor*, as a Huggingface Dataset.
+<<<<<<< HEAD
+[:hugs: Bangla-Key2Text-2.6Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+=======
 [:hugs: Bangla-Key2Text-2Million](https://anonymous.4open.science/r/Bangla-Key2Text-ACL) (Currently, the privacy is in private mode, after acceptance of the paper, it will be released in public mode.)
+>>>>>>> 73eaee8a4b6d02442657ec805ac38279bbf89642
 #### Run using the below code
 ```python
 !pip install datasets
 
 from datasets import load_dataset
 
-dataset = load_dataset("***/Bangla-Key2Text-2Million", split="train") #split="test"
+dataset = load_dataset("***/***", split="train") #split="test"
 dataset
 ```
 
