@@ -4,7 +4,7 @@
 
 **To download *git lfs* files, visit StackOverflow answer on [How to download git-lfs files using the oid sha256 information](https://stackoverflow.com/questions/65603062/how-to-download-git-lfs-files-using-the-oid-sha256-information).**
 
-### Text Generation
+# Text Generation
 
 #### Find in Hugging Face 
 <<<<<<< HEAD
