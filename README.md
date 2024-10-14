@@ -43,7 +43,7 @@ def predict(key): # Function to generate text from given keywords
       outputs = model.generate(
           input_ids=input_ids,
           max_length =512,
-          num_beams =2,
+          do_sample=True,
           early_stopping =True,
           num_return_sequences = 1,
           top_k= 50,
