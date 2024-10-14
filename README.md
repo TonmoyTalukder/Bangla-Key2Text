@@ -1,6 +1,6 @@
 # Bangla Key2Text: Text Generation from Keywords for a Low Resource Language
 
-This repository contains the code and datasets used in the paper titled "Bangla Key2Text: Text Generation from Keywords for a Low Resource Language" submitted at The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024). </br></br>
+This repository contains the code and datasets used in the paper titled "Bangla Key2Text: Text Generation from Keywords for a Low Resource Language" submitted at The 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics. </br></br>
 
 
 **To download *git lfs* files, visit StackOverflow answer on [How to download git-lfs files using the oid sha256 information](https://stackoverflow.com/questions/65603062/how-to-download-git-lfs-files-using-the-oid-sha256-information).**
